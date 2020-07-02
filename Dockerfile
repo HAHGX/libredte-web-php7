@@ -1,4 +1,4 @@
-FROM nosagadu/libredte-base:latest
+FROM juano/libre-dte-base:latest
 
 RUN wget -c https://github.com/SowerPHP/sowerpkg/raw/master/sowerpkg.sh -P /tmp \
     && chmod +x /tmp/sowerpkg.sh \
